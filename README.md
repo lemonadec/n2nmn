@@ -1,6 +1,6 @@
 # Learning to Reason: End-to-End Module Networks for Visual Question Answering
 
-This repository contains the code for the following paper:
+This repository refered to the project " [Learning to Reason: End-to-End Module Networks for Visual Question Answering](https://github.com/ronghanghu/n2nmn)" and implemented the model with tensorlayer. It contains the code for the following paper.
 
 * R. Hu, J. Andreas, M. Rohrbach, T. Darrell, K. Saenko, *Learning to Reason: End-to-End Module Networks for Visual Question Answering*. in ICCV, 2017. ([PDF](https://arxiv.org/pdf/1704.05526.pdf))
 ```
@@ -12,7 +12,6 @@ This repository contains the code for the following paper:
 }
 ```
 
-Project Page: http://ronghanghu.com/n2nmn
 
 ## Installation
 
@@ -21,7 +20,8 @@ Project Page: http://ronghanghu.com/n2nmn
 `pip install tensorflow-gpu==1.0.0`  
 3. Install [TensorFlow Fold](https://github.com/tensorflow/fold) (which is needed to run dynamic graph):  
 `pip install https://storage.googleapis.com/tensorflow_fold/tensorflow_fold-0.0.1-py3-none-linux_x86_64.whl`
-4. Download this repository or clone with Git, and then enter the root directory of the repository:  
+4. Install tensorlayer
+5. Download this repository or clone with Git, and then enter the root directory of the repository:  
 `git clone https://github.com/ronghanghu/n2nmn.git && cd n2nmn`
 
 ## Train and evaluate on the SHAPES dataset
