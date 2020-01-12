@@ -1,6 +1,6 @@
 # Learning to Reason: End-to-End Module Networks for Visual Question Answering
 
-This repository refered to the project " [Learning to Reason: End-to-End Module Networks for Visual Question Answering](https://github.com/ronghanghu/n2nmn)" and implemented the model with tensorlayer. It contains the code for the following paper.
+This repository refered to the project " [Learning to Reason: End-to-End Module Networks for Visual Question Answering](https://github.com/ronghanghu/n2nmn)" and implemented the model with tensorlayer. It contains the code for the following paper (with tests on the SHAPES dataset):
 
 * R. Hu, J. Andreas, M. Rohrbach, T. Darrell, K. Saenko, *Learning to Reason: End-to-End Module Networks for Visual Question Answering*. in ICCV, 2017. ([PDF](https://arxiv.org/pdf/1704.05526.pdf))
 ```
